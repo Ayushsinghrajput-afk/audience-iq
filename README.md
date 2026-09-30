@@ -339,4 +339,4 @@ This project was collaboratively developed by:
 
 - **Kritarth Bajpai**
 - **Arekh Vikram**
-- **Ayush Singh Rajput**
+- **AyushSinghRajput**
