@@ -204,7 +204,8 @@ SYNC_TOPICS = [
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["http://localhost:5173","https://audience-iq-eight.vercel.app/"],
+    allow_origin_regex=r"https://audience-iq-.*\.vercel\.app",
     allow_credentials=True,
     allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["*"],
